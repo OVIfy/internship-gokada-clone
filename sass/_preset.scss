@@ -1,0 +1,38 @@
+*{
+    font-family: Inter, sans-serif;
+    // margin: 0;
+    // padding: 0;
+    color: white;
+}
+
+html,body{
+    background-color: $pri-color;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: $h-lv1;
+    font-weight: $f-weight1;
+}
+
+h2{
+  font-size: $h-lv2;
+}
+
+p{
+    font-size: $p-lv1;
+}
+
+hr{
+    @include thin-line;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    li{
+        margin-right: 10px;
+    }
+}

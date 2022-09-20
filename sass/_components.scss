@@ -1,0 +1,37 @@
+// container both vertical and horizontal
+.vBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.vBox--content-center{
+   text-align: center;
+   justify-content: center;
+}
+
+.vBox--backgroundimage-hero{
+    background: no-repeat center center url('../images/hero-img-jpeg.jpg');
+  
+}
+
+.vBox--height-full{
+    height: 100vh;
+}
+
+//for buttons
+
+.btn{
+    padding: $btn-padding1;
+    text-decoration: none;
+    border-radius: $btn-border-rad;
+}
+
+.btn--bg-pri{
+    background-color: $sec-color;
+}
+
+.btn--color-w{
+    color: white;
+}
