@@ -383,6 +383,10 @@ ul li {
 }
 
 @media (max-width: 800px) {
+  .mobile_extra {
+    display: block;
+  }
+
   .nav__btn {
     display: inline-flex;
     right: 40px;
