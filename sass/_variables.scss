@@ -9,6 +9,8 @@ $p-lv2 : 16px;
 $p-lv3 : 14px;
 $p-lv4 : 12px;
 
+$mg-basic : 20px;
+
 $pri-color: #0e0e0f;
 $sec-color: #00c795;
 $footer-color :#17181A;
@@ -21,12 +23,16 @@ $f-weight1 : 700;
 $btn-padding1 : 14px 40px;
 $btn-border-rad: 8px;
 
+$tablet-width : 800px;
+
 @mixin thin-line{
     height: 0.2px;
     border-bottom: none;
     border-right: none;
     border-left: none;
     width: 100%;
+    margin: $mg-basic 0px;
+    border-top: 1px solid $light-dark-background;
 }
 
 .padd-y-pri{

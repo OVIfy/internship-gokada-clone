@@ -103,7 +103,6 @@ class Nav{
 
     //   this.isOpen = false;
       this.isClosed = true;
-      console.log(this.nav_btn,this.navlines)
     }
 
     open(e){
@@ -111,7 +110,7 @@ class Nav{
             ele.classList.remove('nav-line-' + this.numToText(i) + '-close')
             ele.classList.add('nav-line-' + this.numToText(i) + '-open')
 
-            
+
         })
         this.slide.classList.remove('slideOut')
         this.slide.classList.add('slideIn')
